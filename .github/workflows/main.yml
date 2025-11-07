@@ -5,6 +5,8 @@ env:
 name: Deploy
 
 on:
+  workflow_dispatch:
+  # manual
   push:
     branches: ['main']
   pull_request:
